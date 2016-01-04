@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!--
+	Windows 95 Personal Web Server
+	Home Page
+
+	7/1/96	Created		Microsoft
+
+	This page has been purposely kept very simple so that even
+	users that haven't created home pages before can
+	change the template very easily to suit their needs.
+-->
+<HTML>
+
+<head>
+<title>
+	My Home Page
+</title>
+</head>
+
+<body>
+
+<h2 align=center>
+
+	(Your Home Page goes here)
+
+<!-- Change the line above with your name to say, Karen's Home Page-->
+
+</h2>
+
+
+Welcome to my web server running on Windows 95.
+
+<p>
+
+<!-- Add more information about yourself. Your interests etc. -->
+
+<hr>
+
+Here are my interests.
+
+<ul>
+<li> Movies
+<li> Reading
+</ul>
+
+<hr>
+
+Here are some useful links:
+
+<ul>
+<li> <a href=http://www.microsoft.com> Microsoft </a>
+</ul>
+
+<hr>
+This page has been accessed <img ALT="Access counter" src=/scripts/counter.dll?9605071636> times.
+
+<hr>
+
+<center>
+<font size=-2>
+Brought to you by the
+<a href=/docs/default.htm><b>Personal Web Server</b></a> from
+<a href=http://www.microsoft.com><b>Microsoft</b></a>.
+</font>
+</center>
+
+</BODY>
+</HTML>

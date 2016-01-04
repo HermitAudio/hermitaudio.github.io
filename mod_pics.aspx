@@ -4,9 +4,7 @@
 		<title></title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
-		
 	</head>
-	
 	<body>
 		<P>
 			<TABLE id="Table1" cellSpacing="1" cellPadding="1" width="300" border="1">

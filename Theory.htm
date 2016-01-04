@@ -1,0 +1,231 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Theory</title>
+
+
+<script LANGUAGE="JavaScript" FPTYPE="dynamicoutline">
+<!--
+  // If you want to change this script, you must also make the following
+  // changes so that FrontPage will not overwrite your new script.
+  // In the script tag, change type="dynamicoutline" to type="mydynamicoutline"
+  // In function dynOutlineEnabled, change "dynamicoutline" to "mydynamicoutline"
+  // Throughout the HTML content, change dynamicoutline to mydynamicoutline
+  // Change function dynOutline to function mydynOutline in the script
+  // In the body tag, change onclick="dynOutline()" to onclick="mydynOutline()"
+  function getControlTag(src)
+  {
+    TRok = false
+    while ("HTML" != src.tagName)
+    {
+      if ("IMG" == src.tagName || "FONT" == src.tagName || "A" == src.tagName)
+        TRok = true
+      if ("LI" == src.tagName)
+        return src
+      if ("TR" == src.tagName)
+      {
+        if(TRok)
+          return src
+        return null
+      }
+      src = src.parentElement
+    }
+    return null
+  }
+  function dynOutlineEnabled(src)
+  {
+    while ("HTML" != src.tagName)
+    {
+      if("OL" == src.tagName || "UL" == src.tagName || "TABLE" == src.tagName)
+        if(null != src.getAttribute("dynamicoutline", false))
+          return true
+      src = src.parentElement
+    }
+    return false
+  }
+  function containedIn(src, dest)
+  {
+    while ("HTML" != src.tagName)
+    {
+      if (src == dest)
+        return true
+      src = src.parentElement
+    }
+    return false
+  }
+  function dynOutline()
+  {
+    var ms = navigator.appVersion.indexOf("MSIE");
+    ie4 = (ms>0) && (parseInt(navigator.appVersion.substring(ms+5, ms+6)) >= 4);
+    if(!ie4)
+        return;
+    var src = event.srcElement
+    src = getControlTag(src)
+    if (null == src)
+      return
+    if (!dynOutlineEnabled(src))
+      return
+    var idx = src.sourceIndex+1
+    while (idx < document.all.length && containedIn(document.all[idx].parentElement, src))
+    {
+      srcTmp = document.all[idx]
+      tag = srcTmp.tagName
+      if ("UL" == tag || "OL" == tag || "TABLE" == tag)
+        srcTmp.style.display = srcTmp.style.display == "none" ? "" : "none"
+      idx++;
+    }
+  }
+//-->
+</script><meta name="Microsoft Theme" content="global 101, default"><meta name="Microsoft Border" content="l, default"></head>
+
+<body onclick="dynOutline()" background="_themes/global/glotextb.gif" bgcolor="#FFFFCC" text="#510000" link="#999900" vlink="#CC9966" alink="#990066"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+<p>&nbsp;</p>
+
+<p align="center"><font face="Arial"><strong>ShortCuts</strong></font></p>
+
+<p>
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="The Audio Site">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+  <param name="url" value="AudioStartsHere.htm" valuetype="ref">
+</applet>
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="Electrocompaniet">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+  <param name="url" value="OtalaStory.htm" valuetype="ref">
+</applet>
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="Audio Theory">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+  <param name="url" value="theory_of_single_stages.htm" valuetype="ref">
+</applet>
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="Schematics">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+  <param name="url" value="schematics.htm" valuetype="ref">
+</applet>
+&nbsp;&nbsp; 
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="Osiris Data AS">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+  <param name="url" value="http://www.osiris.no" valuetype="ref">
+  <param name="font" value="Dialog">
+  <param name="fontstyle" value="bold">
+  <param name="fontsize" value="14">
+</applet>
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="Content">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+  <param name="url" value="TableOfContent.htm" valuetype="ref">
+</applet>
+<applet code="fphover.class" codebase="_fpclass/" width="120" height="24">
+  <param name="text" value="News">
+  <param name="color" value="#FF0000">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="textcolor" value="#000000">
+  <param name="effect" value="glow">
+  <param name="url" value="news.htm" valuetype="ref">
+  <param name="font" value="Dialog">
+  <param name="fontstyle" value="regular">
+  <param name="fontsize" value="14">
+</applet>
+</p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><font face="arial, helvetica" mstheme>
+
+<p>The theory of the Otala amplifiers, and thus the basis for the Electrocompaniet
+amplifiers, has been detailed by many papers, mostly by Matti Otala, but also by several
+others.&nbsp; At Electrocompaniet these theories were extended, and a theoretical
+framework for our amplifiers were established.&nbsp; The following pages will give you an
+insight into both the original theories by Dr. Matti Otala, and also the theories built up
+in the first years of Electrocompaniet.&nbsp; Some of the thoughts are solely mine,
+however.&nbsp; Don't assume that Electocompaniet of today will vouche for all I say here
+:-) 
+
+</font mstheme><table dynamicoutline border="0" cellpadding="0" cellspacing="0" width="100%" msthemelist>
+  <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul1d.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>On TIM, DIM, Nonlinearity&nbsp; and Distortion</font mstheme><table dynamicoutline border="0" cellpadding="0" cellspacing="0" width="100%" msthemelist>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>TIM&nbsp;&nbsp; :::&nbsp; This was the starting point of Otala's theories, and his own
+        idea from the beginning.&nbsp; Early seventies many people had already noticed that the
+        sound of the new transistor amplifiers were inferior to the sound of the tube amplifiers.
+        &nbsp; How could that be, when the trans-amps had less distortion than the tubes ???</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>DIM - what it is and how it relates to TIM.&nbsp; This was when everybody tried to find
+        measurement&nbsp;&nbsp; methods.</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>The debates and the quarrels - but Otala was right !</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>&quot;All distortions are equal, but some are more equal than others.&quot;&nbsp; That
+        was the feeling at Electrocompaniet at that time, and the beginning of an understanding of
+        how these distortion mechanisms interacted, and how they affected the sound.&nbsp; Also
+        the understanding that the basis of all distortions are the nonlinearity.&nbsp; The
+        nonlinearity is the source, the distortions the symptoms.</font mstheme></td msthemelist></tr>
+    </table msthemelist><font face="arial, helvetica" mstheme>
+  </font mstheme></td msthemelist></tr>
+  <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul1d.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>A theoretical framework for building good-sounding amplifiers</font mstheme><table dynamicoutline border="0" cellpadding="0" cellspacing="0" width="100%" msthemelist>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme><a href="theory_of_single_stages.htm">A theory of single stages</a>&nbsp;&nbsp;&nbsp; A
+        single stage is the basis for all amplifications, and at Electrocompaniet a model for the
+        single stage and an &quot;our way&quot; evolved.&nbsp; </font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>A theory of multiple stages&nbsp;&nbsp;&nbsp; Multiple stages put together do not behave
+        as N times a single stage, they interact.&nbsp; In many cases they even counteract. &nbsp;
+        We explain how.&nbsp; And how to design with multiple stages.</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>A theory of feedback&nbsp;&nbsp;&nbsp; Many people are either pro-feedback or fully
+        against feedback.&nbsp; At Electrocompaniet we learned to live with feedback in all forms,
+        local and loop, and learned how to get it as a friend and not as an enemy.</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Output stages - that current - what does it do ?</font mstheme></td msthemelist></tr>
+    </table msthemelist><font face="arial, helvetica" mstheme>
+  </font mstheme></td msthemelist></tr>
+  <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul1d.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>How do we calculate the nonlinearity</font mstheme><table dynamicoutline border="0" cellpadding="0" cellspacing="0" width="100%" msthemelist>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Calculations of <a href="theory_of_single_stages.htm#Summary">input stage nonlinerity</a>&nbsp;&nbsp;&nbsp;
+        This is simple, when you know how, a table summarises everything</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Calculations of the nonlineairy of multiple stages.&nbsp; This is more complicated, but
+        by following a set of rules, and abiding by the general model we use, it is not THAT
+        difficult.</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Calculations of distortions&nbsp;&nbsp;&nbsp; One thing is the nonlinearity, another is
+        how much distortion of the different types your amp will measure.&nbsp; We explain how
+        these are connected.</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Designing for lowest distortion&nbsp;&nbsp;&nbsp; Here we tell you how to optimize your
+        design to get lowest possible distortion.&nbsp; Note that there very seldom exist one
+        optimum point.&nbsp; There are just too many variables, so you have to use som creativity
+        and feeling for what's going on.</font mstheme></td msthemelist></tr>
+    </table msthemelist><font face="arial, helvetica" mstheme>
+  </font mstheme></td msthemelist></tr>
+  <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul1d.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Frequency response, rise times, slew-rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What's the
+    difference ?</font mstheme><table dynamicoutline border="0" cellpadding="0" cellspacing="0" width="100%" msthemelist>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme><a href="open_and_closed_loop_frequency_r.htm">Open and closed loop frequency response</a></font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>How the frequency plane and time plane interconnects</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Time response behaviour</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Poles and zeroes</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Compensation of an amplifier</font mstheme></td msthemelist></tr>
+    </table msthemelist><font face="arial, helvetica" mstheme>
+  </font mstheme></td msthemelist></tr>
+  <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul1d.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Other factors</font mstheme><table dynamicoutline border="0" cellpadding="0" cellspacing="0" width="100%" msthemelist>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>The damping factor&nbsp; - or output impedance, what is it ?</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Why there are no simple solutions</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>Power supply interaction</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>RFI - what can it do</font mstheme></td msthemelist></tr>
+      <tr msthemelist><td valign="baseline" width="42"><img src="_themes/global/globul2d.gif" width="12" height="12" hspace="15"></td><td valign="top" width="100%"><font face="arial, helvetica" mstheme>The importance of the components </font mstheme></td msthemelist></tr>
+    </table msthemelist><font face="arial, helvetica" mstheme>
+  </font mstheme></td msthemelist></tr>
+</table msthemelist><font face="arial, helvetica" mstheme>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+&nbsp;</font mstheme><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>
