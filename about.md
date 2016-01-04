@@ -6,7 +6,7 @@ published: true
 ---
 
 
-Independent consultant and Visual Studio ALM MVP
+Independent consultant and Visual Studio ALM MVP   
 Former audio designer at Electrocompaniet
 
 
@@ -15,7 +15,7 @@ Former audio designer at Electrocompaniet
 [Main blog](http://hermit.no)   
 [About me](http://about.me/terjes)
 
-Also see [Who am I](whoami.htm)
+Also see [Who am I](../whoami.htm)
 
 
 ### Contact me
