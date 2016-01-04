@@ -2,17 +2,68 @@
 
 <head>
 <title>Open and closed loop frequency response</title>
-<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 
 <meta name="Microsoft Border" content="none, default">
 </head>
 
 <body>
 
-<p align="center"><font face="Broadway">The site is under reconstruction.</font></p>
-<p align="center">&nbsp;</p>
-<p align="center"><font face="Broadway">Please check back later to get the new 
-links.</font></p>
+<h1>Open and closed loop frequency response</h1>
 
-</body>
+<p>The open loop frequency response is the frequency response of the amplifier with no
+feedback, or before feedback, or with the feedback network delibirately broken.&nbsp; </p>
+
+<p>The closed loop frequency response is the frequency response of the amplifier with
+feedback.</p>
+
+<p>These two are closely related.&nbsp; The theoretical closed loop frequency response is
+equal to the open loop frequency response times the amount the feedback. If you have 40 dB
+(100 times) of feedback, and an open loop response of 1 kHZ, the closed loop frequency
+response is 100 kHz.</p>
+
+<p>The formula relating these two are:</p>
+
+<p><img src="Eq1.gif" alt="Eq1.gif (1105 bytes)" WIDTH="101" HEIGHT="45"> </p>
+
+<p>where D is the feedback factor and Aol is the open loop gain.&nbsp; The total
+denominator expression is what we call feedback.</p>
+
+<p>The open loop ferquency response is determined by the internal compensation (intended
+or not) of the amplifier.&nbsp; Many amplifiers are designed with one stage having a very
+high output impedance, thus the spreading capacitance of that stage's output, determines
+the open loop frequency response.&nbsp; For integrated circuits the open loop frequency
+response is either specified or you can see it graphically as a function of gain. In the
+latter case, look at the maximum gain, which means zero feedback.</p>
+
+<p>Just to remind you, the closed loop gain Acl is related to the open loop gain, Aol, in
+exactly the same way as the frequency response, althought inverse.</p>
+
+<p><img src="eq2.gif" alt="eq2.gif (1088 bytes)" WIDTH="98" HEIGHT="46"></p>
+
+<p>At Electrocompaniet the thinking was in favour of a large open loop bandwidth. &nbsp;
+This is also my opinion, but I feel it shall not be larger than necessarry. There is
+always a tradeoff, and if you go for too high an open loop bandwidth, you reduce the
+possible amount of feedback you can have.&nbsp; My thinking is that as long as the
+open-loop bandwidth is high enough, you should use the rest of your gain for feedback.
+&nbsp; This will give you a more optimal design, because the overall distortion will be
+reduced.</p>
+
+<p><strong>What determines the open loop bandwidth</strong></p>
+
+<p>Mostly it is determined by the last voltage amplification stage.&nbsp; The collectors
+of this stage (assuming transistor amplifiers, which these articles are all about :-)) is
+connected to the bases of the drivers of the output stage. The input impedance of these
+drivers are normally very nonlinear, and strongly frequency dependent.&nbsp; This means
+you can very well get a major pole here which varies strongly with signal level and the
+load (loudspeaker and cables) of the output stage.&nbsp; The solution to this is to
+voltage drive the output stage, thus loading down the amplification stage. This will also
+have the effect of pushing up the cut-off frequency at this point. The EC amplifiers have
+this pole around 500 kHz. The benefits of a voltage driven output stage is described
+elsewhere on this site, among them an AES paper, links will arrive.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+&nbsp;</body>
 </html>

@@ -2,7 +2,7 @@
 
 <head>
 <title>Theory of single stages</title>
-<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 
 
 <meta name="Microsoft Theme" content="none, default">
@@ -11,10 +11,276 @@
 
 <body>
 
-<p align="center"><font face="Broadway">The site is under reconstruction.</font></p>
-<p align="center">&nbsp;</p>
-<p align="center"><font face="Broadway">Please check back later to get the new 
-links.</font></p>
+<h1>Theory of single stages
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.osiris.no"><img src="OsirisEye.jpg" alt="The supreme Norwegian software design company.  Active in Norway and Sweden. C++, COM, ActiveX." WIDTH="136" HEIGHT="51"></a></h1>
 
-</body>
+<h2>The general idea</h2>
+
+<p>When you design something, you're moving your ideas and abstract thoughts into the real
+world.&nbsp; Using electronic components, they will never act equal to your ideas. &nbsp;
+So, the best approach is to approximate their behavior, and make them work as close to
+your ideas as possible.&nbsp; Further, if you choose your models skillfully, you will get a
+behavior from the device which very closely mimics what you're after.</p>
+
+<p>Therefore - the sequence is :&nbsp; Model =&gt; Design =&gt; Measurement =&gt;
+Listening &nbsp; and circle this sequence until you're happy :-)</p>
+
+<p>The go-through below is rather detailed to show the general outline of the procedure.
+&nbsp; The other derivations are less stringent.</p>
+
+<h2>A model for a single stage</h2>
+
+<p>We model a single stage as a voltage controlled current source.&nbsp; In our ideal
+world this means we want an active device working as a transconductance device.&nbsp; A
+transistor (and also a tube) is very close to this ideal.&nbsp; But, one has to further
+improve the circuitry around the active device, in order to make it behave as closely as
+possible to this ideal.</p>
+
+<p>What this means is that a perfect transistor, and thus a perfect stage, will have
+infinite input impedance, no reverse coupling from output to input, infinite output
+impedance, and a finite and constant (with respect to both the signal and the environment)
+transfer conductance. </p>
+
+<p>Real transistors are not quite as good as this, but we can improve on the transistor in
+order to make it behave more like this ideal.&nbsp; To do this will normally make the
+stage perform better in all respects, but keep in mind that all rules will turn back on
+you at a certain stage.&nbsp; There is no such thing as a free lunch.</p>
+
+<p>If such a stage is voltage driven, we will reduce the nonlinearity from all
+&quot;leakages&quot; back to the input, be it input impedance or reverse coupling. &nbsp;
+The dominating nonlinearity will then be the transconductance, which is easy to control.</p>
+
+<p>A transistor in a common emitter coupling is the starting point.&nbsp; It has in
+principle the behavior as described above.&nbsp; The following rules exist:</p>
+
+<p>Linear behavior:</p>
+
+<p>Transfer conductance:&nbsp; Given by :&nbsp; gm =&nbsp; Ie/Vt&nbsp;,&nbsp; Ie is the
+emitter DC current and Vt&nbsp; is the voltage equivalent of temperature, normally equal to
+25 mV, exact formula is kT/q, where k is Boltzmans constant and q is the charge of an
+electron, and T is the absolute temperature in Kelvin.</p>
+
+<p>The inverse of the transconductance is called the dynamic resistance, called &nbsp;
+&quot;re&quot;</p>
+
+<p>Current amplification :&nbsp; Hfe = Ic/Ib, derived for a particular current&nbsp; hfe =
+ic/ib, which applies for small signal currents around a quiescent point Ic.</p>
+
+<p>Input impedance:&nbsp; rin = hfe*re</p>
+
+<p>The dominating nonlinear mechanism lies in the transconductance.&nbsp; Since this is a
+single stage (not a differential stage) it will generate a smooth series of harmonics (if
+stimulated with a pure sinoid).</p>
+
+<p>If the input signal is given as 'x' (where 'x' can be f.ex. sin(wt)), then the output
+'y' will be :</p>
+
+<p><img src="eq3.gif" alt="eq3.gif (1120 bytes)" WIDTH="181" HEIGHT="25"></p>
+
+<p>And 'x' is a relative parameter which must always obey /x/&lt;1 in order for the series
+to converge.&nbsp; If /x/&lt;1 then it follows that /y/&lt;1.&nbsp; The output current is
+'ie' and the output parameter is then 'ie/Ie'.&nbsp; The input signal generating a current
+of 'ie' is 'uin', from the formula 'ie = uin*gm'&nbsp; It then follows from the
+transconductance formula that the input parameter we seek is 'uin/Vt'.</p>
+
+<p>So, given the input 'x', defined as 'uin/Vt' and the output 'y, defined as 'ie/Ie',
+what does these things mean ?&nbsp; </p>
+
+<p>If 'uin/Vt' exceeds 1, then the varying part of the current exceeds the Quiescent
+current Ie, and the stage is clipping.&nbsp; When the stage is clipping, our formula
+breaks down.&nbsp; If we are the find the distortion when the stage is clipping we'll have
+to resort to Fourier analysis.&nbsp; </p>
+
+<p>To make this into a practical case:</p>
+
+<p>Assume a transistor running at a current of 1mA.&nbsp; The gm is then 1/25 Siemens (The
+inverse of ohm, and the unit for transconductance, although also mhos is used (ohm
+reversed) ).&nbsp; An input signal of 1 mV will then generate an output current of 1/25 mA
+= 40 uA.&nbsp; But now note:&nbsp; This is the first order approximation.&nbsp; As can be
+seen from the series expansion above, we also have second and third order components.
+&nbsp; The first order coefficient should be pretty equal to 'gm', but what are the other
+two coefficients ?</p>
+
+<p>The real equation relating input voltage to output current is :&nbsp; Ie =
+Is*exp((Ube/Vt)-1), called the Ebers-Moll equation.&nbsp; 'Is' is the 'leakage' current,
+but don't bother about it, we'll soon enough get rid of it.&nbsp; We are interested in
+finding the equation for the behavior around the quiescent point,. WE do this by adding
+small deviations 'ie' and 'ube' to the equation above.&nbsp; Resolving this, we get the
+much simpler equation:&nbsp; ie/Ie = exp(ube/Vt)-1, and its inverse:&nbsp; ube/Vt =
+ln(1+ie/Ie).&nbsp; These equations are called the signal equations, and will be used to
+get the coefficients for the series expansion above.&nbsp; We'll first make a series
+expansion of the first equation, and we will get:</p>
+
+<p><img src="eq4.gif" alt="eq4.gif (1457 bytes)" WIDTH="237" HEIGHT="69"></p>
+
+<p><a name="The efficiency parameter"><strong><big>The efficiency parameter</big></strong></a></p>
+
+<p>We now introduce the efficiency parameter 'ni'.&nbsp; The point of introducing this
+parameter is to generate simpler formulas for calculating the distortion, and to gain a
+better understanding of how the distortion and other transistor parameters are coupled.
+&nbsp; </p>
+
+<p>The parameter is defined as : &nbsp; </p>
+
+<p>ni =&nbsp; ie/Ie</p>
+
+<p>For a bipolar stage without local feedback, as the stage discussed above,&nbsp; ni is
+equivalent to ube/Vt, where we only consider the linear part of the series expansion.
+&nbsp; The equation above can then be written as:</p>
+
+<p><img src="eq6.gif" alt="eq6.gif (1179 bytes)" WIDTH="154" HEIGHT="49"></p>
+
+<p>The second order distortion is defined as the second order term divided by the first
+order term, and the third order distortion in the same manner:</p>
+
+<p>2nd = ni/2</p>
+
+<p>3rd = n<sub>i</sub><sup>2</sup>/6</p>
+
+<p>If the input signal is a sinusoid, then the following equations hold:&nbsp; (Ask me for
+proof, if you're interested&nbsp; <a href="mailto:tsandstr@online.no">tsandstr@online.no</a>)
+where 2ndh is the second order harmonic distortion, and 3rdh is the third order harmonic
+distortion.</p>
+
+<p>2ndh = 2nd/2</p>
+
+<p>3rdh = 3rd/4</p>
+
+<p>Putting it together:</p>
+
+<p><strong>2ndh = ni/4</strong></p>
+
+<p><strong>3rdh = n<sub>i</sub><sup>2</sup>/24</strong></p>
+
+<p>and remember, set ni = uin/Vt.</p>
+
+<p><a name="FETStages"><strong>FET Stages</strong></a></p>
+
+<p>It is interesting to do the same exercise on FET transistors.&nbsp; The result is a
+simpler series, with only first and second order components.&nbsp; By inserting the
+efficiency parameter, one will get the following equation for the FET's 2nd harmonic
+distortion.</p>
+
+<p><strong>2ndh = ni/8</strong></p>
+
+<p>half the amount of the bipolar transistor.&nbsp; Some people have argued that the FET
+is a much more linear device than the bipolar.&nbsp; This equation shows this as only a
+partial truth, there is only a 6dB improvement.</p>
+
+<p><a name="Local Feedback"><strong><big>Local Feedback</big></strong></a></p>
+
+<p>It is well known that local series current feedback, (read - inserting an emitter
+resistor) reduces the distortion.&nbsp; The feedback factor can be written as:</p>
+
+<p>D = 1 + gm*Re = 1 + (Ie*Re)/Vt</p>
+
+<p>and the resulting efficiency/distortion equations is then :</p>
+
+<p>2nd = ni/(2*D)</p>
+
+<p>and</p>
+
+<p>3rd = ni**2/(3*D)</p>
+
+<p>or for the harmonic distortion:</p>
+
+<p>2ndh = ni/(4*D)</p>
+
+<p>3rdh = ni**2/(12*D)</p>
+
+<p>Note that the efficiencyparameter ni is still defined as ie/Ie, but the input version is
+now ni = uin/Vth, where Vth = Vt*D.&nbsp; </p>
+
+<p>&nbsp;</p>
+
+<p><a name="Differential stages"><strong><big>Differential stages</big></strong></a></p>
+
+<p>There is a similar set of equations for the differential pair.</p>
+
+<p>If the stage is completely in balance (which of course rarely happen), all second order
+components will be cancelled.&nbsp; </p>
+
+<p>The no-feedback solution will have a basic transconductance of gm = Ie/(2Vt), which
+gives ni = uin/2VT</p>
+
+<p>The corresponding distortion is then equal to the single stage, except for a mismatch
+parameter 'm' and a common mode signal factor 'c'</p>
+
+<p>3rd = ni**2/3</p>
+
+<p>and</p>
+
+<p>2nd = (m+c)*ni/2</p>
+
+<p>If the current source feeding the emitters have infinite output impedance, c approaches
+0.&nbsp; The formula for c is&nbsp; c= ik/(2ie).&nbsp; More information on this in my AES
+Paper (WEB version coming soon).&nbsp; See the <a href="SingleCalc.htm">Single
+Stage Calculator</a></p>
+
+<p><a name="Summary"><strong><big>Summary</big></strong></a></p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="33%"><strong>Stage type</strong></td>
+    <td width="33%"><strong>2nd harmonic</strong></td>
+    <td width="34%"><strong>3rd harmonic</strong></td>
+  </tr>
+  <tr>
+    <td width="33%">Bipolar single stage</td>
+    <td width="33%">ni/(4*D)</td>
+    <td width="34%">ni**2/(12*D)</td>
+  </tr>
+  <tr>
+    <td width="33%">FET Single stage</td>
+    <td width="33%">ni/(8*D)</td>
+    <td width="34%">Ideally zero</td>
+  </tr>
+  <tr>
+    <td width="33%">Bipolar differential stage</td>
+    <td width="33%">(m+c)*ni/(4*D)</td>
+    <td width="34%">ni**2/(12*D)</td>
+  </tr>
+  <tr>
+    <td width="33%">&nbsp;</td>
+    <td width="33%">&nbsp;</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">&nbsp;</td>
+    <td width="33%">&nbsp;</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">&nbsp;</td>
+    <td width="33%">&nbsp;</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">&nbsp;</td>
+    <td width="33%">&nbsp;</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+&nbsp;</body>
 </html>

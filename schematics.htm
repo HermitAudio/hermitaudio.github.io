@@ -2,18 +2,115 @@
 
 <head>
 <title>Schematics</title>
-<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 
 
 <meta name="Microsoft Theme" content="none, default">
 <meta name="Microsoft Border" content="none, default">
 </head>
 
-<body>
-<p align="center"><font face="Broadway">The site is under reconstruction.</font></p>
-<p align="center">&nbsp;</p>
-<p align="center"><font face="Broadway">Please check back later to get the new 
-links.</font></p>
+<body><font face="arial, helvetica" mstheme>
 
-</body>
+<h1><font face="trebuchet ms, arial, helvetica" color="#CC9933" mstheme>EC Schematics</font mstheme></h1>
+
+<p><small><strong>Also see later <a href="schematics_2.htm">schematics</a></strong></small></p>
+
+<p>The first design was taken directly from the paper by Otala and Lohstroh, AES 1973. To
+it was added a power supply only.&nbsp; The PCB layouts&nbsp; and the mechanical design
+were done at EC.</p>
+
+<p><a href="Otala%20amp%201973,%20original.htm">Original Otala - First series schematics</a></p>
+
+<p>Only 10 amplifiers were made using these schematics.&nbsp; None exist today.</p>
+
+<p>The next series was done after early 1976, and incorporated first changes to the
+frequency compensation.&nbsp; The changes were done to improve the frequency response and
+slew rate of the amplifier.&nbsp; </p>
+
+<p>Referring to the above schematics the fixes were done on the first and second stage
+lead network (the RC's between the emitters of the differential pairs), the lag networks
+on the collector sides were removed, and the input lag network was redimensioned.</p>
+
+<p>&nbsp;</p>
+
+<p>After a breakdown of the first amplfier brought to the US, a non-intruding (sound-wise)
+protection network was added to the amplifiers.&nbsp; </p>
+
+<p><a href="protection_networks.htm">Of protection networks and power supplies</a></p>
+
+<p>Several intermidiate steps are missing, but at the end the design looked like shown in
+the next&nbsp; schematics, which applies for amplifiers with serial numbers above 100.
+&nbsp; These were heavily EC modified.&nbsp; See the History article.</p>
+
+<p><a href="schematics_of_the_real_ec_25w_am.htm">The real Electrocompaniet schematics
+serial no's approx 100 -&gt;</a></p>
+
+<p>Note the reduced values of all input stage resistors, indicating the increased
+quiescent current in these stages.&nbsp; </p>
+
+<p>From serial no 275, the Great Change was applied to the amplifiers.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>This was the last of the EC designs, but in my own company I did two new modifications,
+one known only as the NRF Mod., the other known as &quot;The Special Version&quot;.</p>
+
+<p>The modifications were only further improvements, naturally following from the EC time.</p>
+
+<p>The &quot;Special Version&quot; schematics are shown here:&nbsp; </p>
+
+<p>SCHEMATIC 5 is coming later</p>
+
+<p>Note the heavily reduced values of the output stage emitter resistors, they're down to
+0.33 ohm from 1 ohm !&nbsp; This reduces the AB nonlinearity as described in my 1982 AES
+paper.</p>
+
+<p>Note also the changed input stage, with a JFET differential pair as a source follower.
+&nbsp; It was found that the bipolar input stage added distortion caused by its nonlienar
+input base current acting on the input resistors.&nbsp; (Which again shows : When we
+reduced the input resitors from 6k8 to 2k2 we heard a sound improvement and believed it
+was caused by improved frequency response behaviour above 20kHz.&nbsp; It may have been
+the distortion reduction by 10dB which we heard !)&nbsp; To reduce this distortion further
+the JFET pair was added.&nbsp; Further, a cascode pair was added to eliminate the Miller
+effect and the nonlinear voltage modulation of the critical first stage.</p>
+
+<p>The gain distribution was also changed, the 3rd stage gain was increased by increasing
+the load resistors from 2k2 to 3k3.&nbsp; More gain was needed to increase the overall
+feedback to 40 dB.&nbsp; It was found the the increase on this point (3rd stage) was the
+less critical.&nbsp; However, we got sligthly more relative modulation effect on the 3rd
+stage than we wished.</p>
+
+<p>All in all&nbsp; approximately 100 amplifiers were modified, and an additional 50
+Special Versions were made. </p>
+
+<p>By the end of the 80's and the beginning of the 90's I tried a few more changes to the
+amplifier design, which never made it beyond the lab bench. Only one amp exist with these
+modifications.</p>
+
+<p>They included emitter followers added before the 3rd stage to reduce the modulation
+effect mentioned above.</p>
+
+<p>Also see some of the later <a href="calculations_on_the_25w_amp.htm">calculations</a>
+made on this amplifier.</p>
+
+<p>&nbsp;</p>
+
+<p>What above some thoughts on the &quot;<a href="perfect_25_w_amplifier.htm">Perfect 25W</a>&quot;
+amplifier ?</p>
+
+<p>Or the perfect <a href="later_designs.htm#Preamplifier of 1982">preamplifier</a>, which
+was realized, but.....</p>
+
+<p><strong>Any thing you are missing, or any comments are appreciated :&nbsp;&nbsp;&nbsp; <a href="mailto:tsandstr@online.no">tsandstr@online.no</a></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+&nbsp;</font mstheme></body>
 </html>
