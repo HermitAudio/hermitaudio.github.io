@@ -2,19 +2,87 @@
 
 <head>
 <title>The Perfect 25 W Amplifier</title>
-<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 
 
 <meta name="Microsoft Theme" content="sumipntg 0011">
 <meta name="Microsoft Border" content="none, default">
 </head>
 
-<body background="_themes/sumipntg/sumtextb.jpg" bgcolor="#FFFFFF" text="#000066" link="#3333CC" vlink="#666699" alink="#990099"><!--mstheme--><font face="verdana,arial,helvetica">
+<body>
 
-<p align="center"><font face="Broadway">The site is under reconstruction.</font></p>
-<p align="center">&nbsp;</p>
-<p align="center"><font face="Broadway">Please check back later to get the new 
-links.</font></p>
+<p><font color="#FF0000"><strong><big><big>The Perfect 25 W Amplifier</big></big></strong></font></p>
 
-<!--mstheme--></font></body>
+<p>How should it be done ?</p>
+
+<p>Base it on the Special Version schematic.&nbsp; That should be the starting point.
+DON'T attempt to modify an existing amp, it should be built from scratch !</p>
+
+<p>Then follow the points below:</p>
+
+<ol>
+  <li>Change the power supply as follows:</li>
+  <li>Increase the pre-stage voltage from 30 to 35 V.&nbsp; </li>
+  <li>Place regulators on the pre-stage voltage supply, allow 5 more volts to drop here,
+    taking up the unregulated&nbsp; DC voltage to 40V.</li>
+  <li>Add a Cascode stage on the 3rd amplifier stage.</li>
+  <li>Replace the output transistors with modern japanese types, f.ex. the ........</li>
+  <li>Refine the other stages, shown in the suggested schematics.</li>
+  <li>Design a new PCB layout, follow the PCB rules detailed below.</li>
+  <li>Use heavy gauge wire on all supply lines and loudspeaker outlets. If possible, use
+    steel/copper bars between the elctrolytics.&nbsp; </li>
+  <li>Keep all wires close to the chassis, glue them onto the metal.</li>
+  <li>Place emitter followers before the 3rd stage</li>
+  <li>Use shielded wires from the input signal jacks to the board. Use two signal wires, one
+    for ground and one for active, with the shield connected only in one end.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>PCB Layout rules:</p>
+
+<ol>
+  <li>Keep input stage seperated from output stage</li>
+  <li>Serial resitors placed as close to the base/gate of the receiving transistor</li>
+  <li>Keep EVERYTHING SYMMETRICAL</li>
+  <li>Short leads everywhere</li>
+  <li>The higher the network impedance, the shorter the leads</li>
+  <li>Seperate input and output stage at the connection between 3rd stage emitter followers
+    and 3rd stage common-emitter stage.</li>
+  <li>Use THICK traces on all parts of the output stage.&nbsp; KEEP IT SYMMETRICAL.(Any
+    asymmetrical trace routes here will cause an unbalance, with correcponding lack of
+    distortion cancellation, you won't have that, will you ?)</li>
+  <li>And, don't use a ground plane, but guard rings may be useful. (Never tried them
+    thought.) A ground plane adds capacitance between all traces and ground, thus reducing
+    high frequency performance.&nbsp; Remember, this is not a radio, and the signals are NOT
+    dependant upon RF reflection and things like that. Capacitance is MUCH worse !!!!</li>
+</ol>
+
+<p>Then you'll probably have some questions.&nbsp; Before you e-mail me, I will try to
+answer some anticipated questions up front:</p>
+
+<p>FAQ:</p>
+
+<ol>
+  <li><font color="#FF8000">Can I sell amplifiers based on this schematic ?</font>
+    &nbsp;&nbsp; NO, they are intended for your personal use.&nbsp; And, for your close
+    friends, if that helps you financing the thing. If you are a company and want to make
+    money on this, you should contact me, before my lawyers contact you !</li>
+  <li><font color="#FF8000">Can you provide PCB's or components ?</font>&nbsp; I can not
+    provide PCB's nor&nbsp; mechanics but I may have some suitable elctronic components.
+    &nbsp; I will put up a list of these later.&nbsp; Check back.</li>
+  <li><font color="#FF8000">Can I increase the power output ?</font><font color="#00FF80"> </font>Well,
+    you can increase it slightly, up to perhaps 50W.&nbsp; All output stages including the 3rd
+    stage should have a corresponding voltage increase, and perhaps you should add more output
+    transistors in parallell. Note however, that the more transistors in parallell you add,
+    the more capacitive load you introduce.&nbsp; 3 or max 4 in parallell.</li>
+  <li><font color="#FF8000">What quiescent current should I use ?</font>&nbsp; The quiescent
+    current should be calculated from each transitors Hfe versus Ic curve.&nbsp; It should be
+    set to no more than &nbsp; sligthly less than half the current at which Hfe has its
+    maximum.&nbsp; Lower limit - don't push it too far down .....&nbsp; Note then that more
+    transistors inparallell means more power loss.&nbsp; </li>
+</ol>
+
+<p>&nbsp;</p>
+&nbsp;</body>
 </html>
