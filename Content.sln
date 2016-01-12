@@ -11,6 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{39
 		_layouts\wiki.html = _layouts\wiki.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB48FA0B-F39D-4E94-9DEA-15FAF61C33DF}"
+	ProjectSection(SolutionItems) = preProject
+		404.md = 404.md
+		_config.yml = _config.yml
+		ABDist.md = ABDist.md
+		about.md = about.md
+		index.md = index.md
+		MasterThesis.md = MasterThesis.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
