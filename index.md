@@ -9,7 +9,7 @@ which I worked on.  The history information is endorsed by Electrocompaniet.
 
 I am still doing coaching and mentoring for [Electrocompaniet](http:///www.electrocompaniet.no) and will update with some information related to that over time.
 
-The site also contains other information on audio related stuff, like my M.Sc master thesis on weak non-linearities, audio theory and other stuff.
+The site also contains other information on audio related stuff, like my [M.Sc master thesis](MasterThesis.md) on weak non-linearities, audio theory and other stuff.
 
 The pages here are in the process of being converted from my old site, which has been down for a few years, and some may still be in their old html form.  
 
