@@ -47,7 +47,5 @@ with 40%, not bad, huh ?</p>
 
 none ever made it into a commercial amplifier.
 
-</body>
 
-</html>
 
