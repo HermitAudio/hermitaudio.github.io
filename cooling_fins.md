@@ -9,11 +9,11 @@ title: Cooling fins
 
 &nbsp; They are the result of a strong interest in thermodynamics I had at the time. The
 
-fins are much thicher at the base than ordinary fins - and is gradually made thinner
+fins are much thicker at the base than ordinary fins - and is gradually made thinner
 
-outwards.&nbsp; This was done to improve heat transfer throught the fins, to get an even
+outwards.&nbsp; This was done to improve heat transfer throught the fins and at the same time ensure a well defined air flow, and to get an even
 
-surface temperature, thus the lowest heat transfer resistance.</p>
+surface temperature, thus the lowest overall heat transfer resistance.</p>
 
 
 
@@ -43,7 +43,7 @@ with 40%, not bad, huh ?</p>
 
 
 
-<p>We made a few tenths of these fins, and they performed as intentended.&nbsp; However,
+<p>We made a few tens of these fins, and they performed as intended.&nbsp; However,
 
 none ever made it into a commercial amplifier.
 

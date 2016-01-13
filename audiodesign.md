@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Audio 
+title: Audio Design  
 ---
 
 I have collected all the other audio design stuff, miscellanous bits and pieces here. 
