@@ -11,6 +11,9 @@ I am still doing coaching and mentoring for [Electrocompaniet](http:///www.elect
 
 The site also contains other information on audio related stuff, like my [M.Sc master thesis](wiki/MasterThesis) on weak non-linearities, audio theory and other stuff.
 
+Here I have added all the other non-EC [audio design stuff](audiodesign). 
+
+
 The pages here are in the process of being converted from my old site, which has been down for a few years, and some may still be in their old html form.  
 
  Under conversion:  [Audio starts here](AudioStartsHere.htm)
