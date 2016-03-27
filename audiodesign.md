@@ -9,3 +9,6 @@ The [School Amplifier](schoolamplifier) is the first one out, made together with
 
 The [ultimate cooling fins](cooling_fins) is also a good one.  
 
+Also see my [AES paper on AB Distortion](abdist)
+
+

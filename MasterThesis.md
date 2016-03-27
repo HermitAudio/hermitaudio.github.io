@@ -21,7 +21,7 @@ amplifiers.   This [article](ABDist.md) was also used by the Danish High Fidelit
 
 ###LINKS###
 
-[Class AB Distortion in Power Amplifiers](ABDist.md)
+[Class AB Distortion in Power Amplifiers](ABDist)
 
 
 
