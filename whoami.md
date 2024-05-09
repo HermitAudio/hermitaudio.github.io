@@ -11,7 +11,7 @@
 |Born|15. September 1956 in Oslo, Norway|
 |Spouse| [Ann-Louise](https://alkymi.net/)|
 |Children|Uno,   Born 24.Nov. 1983 |
-||Isabel Born 3. Oct. 1996|
+||[Isabel](https://www.linkedin.com/in/sisandstrom/) Born 3. Oct. 1996|
 |Occupation|Independent software programming consultant at [Hermit AS](https://hermit.no)|
 |Open Source|[NUnit](https://nunit.org) Core Team Lead|
 |Education|Cand. Scient in Physics (Masters degree) from the University of Oslo|
