@@ -24,4 +24,13 @@ October issue. If anyone has a copy, I'd appreciate it :-)
 
 **Links**
 
-[Class AB Distortion in Power Amplifiers](/audio-design/ab-distortion/)
+[Class AB Distortion in Power Amplifiers](/audio-design/ab-distortion/) —
+"Distortion in Class AB Power Amplifiers", Terje Sandstrøm, presented as AES
+Convention 71, Paper No. 1870 (6 March 1982;
+[AES E-Library](https://www.aes.org/e-lib/browse.cfm?elib=11886)), later
+published in the *Journal of the Audio Engineering Society*, Vol. 31, Issue
+11, pp. 858–861 (November 1983;
+[AES Journal Forum](https://secure.aes.org/forum/pubs/journal/?elib=4540)).
+
+The second AES paper from this period is still unidentified — if the title
+turns up, it'll be added here too.
