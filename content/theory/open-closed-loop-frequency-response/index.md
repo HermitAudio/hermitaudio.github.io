@@ -1,6 +1,7 @@
 +++
 title = "Open and Closed Loop Frequency Response"
 weight = 20
+math = true
 +++
 
 The open-loop frequency response is the frequency response of the amplifier
@@ -17,10 +18,10 @@ closed-loop frequency response is 100kHz.
 
 The formula relating these two is:
 
-![Closed-loop frequency response formula](Eq1.gif)
+$$f_{cl} = \frac{f_{ol}}{1 + A_{ol} D}$$
 
-where `D` is the feedback factor and `Aol` is the open-loop gain. The total
-denominator expression is what we call feedback.
+where $D$ is the feedback factor and $A_{ol}$ is the open-loop gain. The
+total denominator expression is what we call feedback.
 
 The open-loop frequency response is determined by the internal compensation
 (intended or not) of the amplifier. Many amplifiers are designed with one
@@ -30,11 +31,11 @@ circuits the open-loop frequency response is either specified, or you can see
 it graphically as a function of gain — in the latter case, look at the
 maximum gain, which means zero feedback.
 
-Just to remind you: the closed-loop gain `Acl` is related to the open-loop
-gain `Aol` in exactly the same way as the frequency response, although
+Just to remind you: the closed-loop gain $A_{cl}$ is related to the open-loop
+gain $A_{ol}$ in exactly the same way as the frequency response, although
 inversely.
 
-![Closed-loop gain formula](eq2.gif)
+$$A_{cl} = \frac{A_{ol}}{1 + A_{ol} D}$$
 
 At Electrocompaniet the thinking favored a large open-loop bandwidth. This is
 also my opinion, but I feel it shouldn't be larger than necessary. There is
