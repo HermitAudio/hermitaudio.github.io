@@ -64,7 +64,7 @@ with EC.
 
 **Øistein Klevhus** helped me with the Engineering High School (I was rarely
 present ...), and I got him a part-time job at EC from early '78 (or late '77)
-until spring '79. We did the [School Amplifier](/audio-design/) together,
+until spring '79. We did the [School Amplifier](/audio-design/school-amplifier/) together,
 spring '79.
 
 Two of the people in production who really stayed for a while were **Knut Arne

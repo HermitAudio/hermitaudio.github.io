@@ -79,5 +79,9 @@ added before the 3rd stage, to reduce the modulation effect mentioned above.
 Also see some of the later [calculations](../calculations) made on this
 amplifier.
 
+What about some thoughts on the "[Perfect 25W](/audio-design/the-perfect-25w-amplifier/)"
+amplifier? Or the perfect [preamplifier](/audio-design/later-designs/#preamplifier-of-1982),
+which was realized, but ...
+
 Anything you find missing, or any comments, are appreciated — reach out via
 [the about page](/about/).
