@@ -1,0 +1,30 @@
+baseURL = 'https://hermitaudio.github.io/'
+locale = 'en-us'
+title = 'Hermit Audio'
+theme = 'hugo-theme-relearn'
+relativeURLs = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ['html', 'rss', 'print']
+  section = ['html', 'rss', 'print']
+  page = ['html', 'print']
+
+[params]
+  author.name = 'Terje Sandstrøm'
+  showVisitedLinks = true
+
+  [[params.themeVariant]]
+    identifier = 'auto'
+    name = 'Auto'
+    auto = ['relearn-light', 'relearn-dark']
+  [[params.themeVariant]]
+    identifier = 'relearn-light'
+    name = 'Light'
+  [[params.themeVariant]]
+    identifier = 'relearn-dark'
+    name = 'Dark'
