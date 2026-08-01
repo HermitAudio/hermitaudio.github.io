@@ -189,5 +189,5 @@ people love such stuff!
 
 ## Technical things
 
-See the [schematics](/schematics/). Also see some of the calculations that
-were done there.
+See the [schematics](/schematics/evolution-of-the-schematics/). Also see some
+of the [calculations](/schematics/calculations/) that were done.
