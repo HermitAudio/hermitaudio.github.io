@@ -4,6 +4,9 @@ weight = 10
 math = true
 +++
 
+{{% badge style="green" icon="language" title=" " %}}Norsk{{% /badge %}}
+**[English translation](../school-amplifier-report-en/)** is available.
+
 **Praktisk årsarbeide for Øistein Klevhus og Terje Sandstrøm, OIH 79 2TA.
 LF stereo effektforsterker.**
 
@@ -1028,3 +1031,4 @@ saktere enn inngangssignalet.
 kanal, gjengitt i fig. 31, og rapportens signatur:)*
 
 **Oslo, 30/5-79 kl.01.15**
+

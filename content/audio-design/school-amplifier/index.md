@@ -26,10 +26,16 @@ later paper I did for the AES; see [the AB distortion paper](../ab-distortion).
 The matched input JFETs were Siliconix U430/U431 dual n-channel devices —
 see the datasheet below.
 
+## Technical Report
+
+- [The School Amplifier — Technical Report (1979)](school-amplifier-report-en/) —
+  Complete English translation of the practical year project report with circuit design,
+  theory, and measurements.
+- [Skoleforsterkeren — full transcription (Norwegian)](skoleforsterkeren-report/) —
+  the complete 1979 report in the original Norwegian, transcribed page by page with
+  formulas and every scanned figure and table.
+
 ## Original design notes (kuriositet)
 
 - [Skoleforsterkeren — original design notes (PDF, scanned)](skoleforsterkeren-original-notes.pdf)
 - [Siliconix U430/U431 matched dual JFET datasheet (PDF, scanned)](siliconix-u430-u431-datasheet.pdf)
-- [Skoleforsterkeren — full transcription (Norwegian)](skoleforsterkeren-report/) —
-  the complete 1979 report, transcribed page by page with formulas and every
-  scanned figure and table.
