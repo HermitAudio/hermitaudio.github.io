@@ -20,6 +20,7 @@ Former audio designer at Electrocompaniet.
 | Children       | Uno, born 24 Nov. 1983; [Isabel](https://www.linkedin.com/in/sisandstrom/), born 3 Oct. 1996                                                            |
 | Occupation     | Independent software programming consultant at [Hermit AS](https://hermit.no)                                                                          |
 | Open Source    | [NUnit](https://nunit.org) Core Team Lead                                                                                                                |
+| Github         | [My site on github](https://github.com/OsirisTerje) |
 | Education      | Cand. Scient in Physics (Master's degree) from the University of Oslo                                                                                    |
 | Location       | Hvalstad, a place in Asker 20 km south-west of Oslo, Norway                                                                                              |
 | Awards         | [Microsoft MVP — Developer Technologies / .NET, 19 consecutive years](https://mvp.microsoft.com/en-us/PublicProfile/4025028?fullName=Terje%20%20Sandstr%C3%B8m) |
