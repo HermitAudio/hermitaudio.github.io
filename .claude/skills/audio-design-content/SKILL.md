@@ -59,6 +59,36 @@ time-sensitive and doesn't need blog-style dating.
    FrontPage-generated nav) — those aren't content, they're artifacts of the old
    hosting platform.
 
+## Norwegian-language source material
+
+Some original documents (school reports, press clippings, internal notes) are
+in Norwegian. Default: a faithful Norwegian transcription. **An English
+translation is a separate, opt-in follow-up — don't do it automatically.**
+
+Reason this changed: the first attempt (the "Skoleforsterkeren" 31-page
+school report, dense with formulas) burned a large amount of effort on the
+Norwegian transcription alone; committing to translating it too, unasked, is
+the kind of scope creep to avoid. Transcribe in Norwegian, ship that, and
+only translate a specific page if/when asked for that page by name.
+
+- Norwegian page: transcribe faithfully — don't silently "improve" or modernize
+  the Norwegian, and don't translate technical terms unless you're certain of
+  the equivalent (when unsure, leave the Norwegian term and gloss it once).
+- If an English translation is requested later: full translation, not a
+  summary; link the two pages to each other near the top ("Norwegian
+  original" / "English translation"); formulas, tables, and figures are
+  identical on both pages (only the prose is translated); as plain sibling
+  content pages, not Hugo's i18n multilingual mode (this is a fixed, closed
+  set of old documents, not a growing corpus — full multilingual site
+  restructuring isn't warranted).
+- For long/dense transcriptions with many scanned figures: render each PDF
+  page as a JPEG (quality ~80-85, see `pdf-page-extraction` skill), not PNG —
+  a 42-page technical scan was 45MB as PNG vs 9.6MB as JPEG, fully legible
+  either way. Embed the actual page image inline next to its transcribed
+  text/formulas so hand-drawn diagrams aren't lost, and use separate image
+  files for figures/tables that are physically standalone pages in the
+  source PDF.
+
 ## Images and scans
 
 - Schematics and photos: keep at full legible resolution — these are often the

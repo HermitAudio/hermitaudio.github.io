@@ -30,3 +30,6 @@ see the datasheet below.
 
 - [Skoleforsterkeren — original design notes (PDF, scanned)](skoleforsterkeren-original-notes.pdf)
 - [Siliconix U430/U431 matched dual JFET datasheet (PDF, scanned)](siliconix-u430-u431-datasheet.pdf)
+- [Skoleforsterkeren — full transcription (Norwegian)](skoleforsterkeren-report/) —
+  the complete 1979 report, transcribed page by page with formulas and every
+  scanned figure and table.
