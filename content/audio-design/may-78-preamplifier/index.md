@@ -18,3 +18,13 @@ never a big hit.
 At Electrocompaniet this preamp was named "Model II". It was designed in the
 period January to July 1978 — I don't remember why it ended up being called
 the May '78 preamp.
+
+## Original design notes (kuriositet)
+
+The original handwritten design notes from 1978 have survived, covering more
+than what's shown above: the line amplifier (two revisions), the phono
+equalization amplifier (including RIAA time-constant calculations and
+component-level schematics), the moving-coil head amplifier, and the shared
+power supply system.
+
+[Line Amp & MC Amp — original design notes (PDF, scanned, 1978)](line-amp-and-mc-amp-1978.pdf)

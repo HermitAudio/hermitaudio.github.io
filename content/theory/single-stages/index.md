@@ -208,3 +208,16 @@ rest of the site's old ActiveX controls.
 | Bipolar single stage        | $n_i/(4D)$         | $n_i^2/(12D)$         |
 | FET single stage            | $n_i/(8D)$         | Ideally zero          |
 | Bipolar differential stage  | $(m+c) \, n_i/(4D)$ | $n_i^2/(12D)$         |
+
+## Original derivation notes (kuriositet)
+
+The treatment above uses a simplified "efficiency parameter" shortcut. My
+original 1978 handwritten working notes derive the same distortion results
+the long way — a full circuit-level analysis in terms of the actual resistor
+values ($R_C$, $R_F$, $R_E$, $R_B$, $R_S$), for both a simple stage and the
+differential pair, including two appendices (a Taylor series expansion of
+$\ln(1+x)$, and inversion of a cubic series). That derivation is not
+transcribed onto this page — only scanned here as the original artifact:
+
+- [Nonlinear Distortion in Simple Transistor Stages (PDF, scanned, 1978)](nonlinear-distortion-in-simple-stages-1978.pdf)
+- [Nonlinear Distortion in Simple Transistor Stages, Part II — The Differential Pair (PDF, scanned, 1978)](nonlinear-distortion-in-differential-stages-1978.pdf)

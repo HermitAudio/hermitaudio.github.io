@@ -22,3 +22,11 @@ More info on the matching of the input transistors will follow, but for now:
 they required manual matching, and it wasn't easy to find a pair that worked.
 Note also the very low emitter resistors on the output stage — this matches a
 later paper I did for the AES; see [the AB distortion paper](../ab-distortion).
+
+The matched input JFETs were Siliconix U430/U431 dual n-channel devices —
+see the datasheet below.
+
+## Original design notes (kuriositet)
+
+- [Skoleforsterkeren — original design notes (PDF, scanned)](skoleforsterkeren-original-notes.pdf)
+- [Siliconix U430/U431 matched dual JFET datasheet (PDF, scanned)](siliconix-u430-u431-datasheet.pdf)
