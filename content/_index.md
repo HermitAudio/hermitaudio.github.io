@@ -15,10 +15,6 @@ Electrocompaniet period from 1975 to 1980 and their "Otala" 25W amplifier, plus
 schematics, troubleshooting guides, theory articles, my M.Sc thesis on weak
 non-linearities, and other audio-design work.
 
-I am still doing coaching and mentoring for
-[Electrocompaniet](http://www.electrocompaniet.no) and update this site with
-related material over time.
-
 My current work is in software development — see
 [my blog](https://hermit.no) for that side of things.
 
