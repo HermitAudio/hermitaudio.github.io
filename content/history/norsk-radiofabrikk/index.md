@@ -14,24 +14,5 @@ The company also put out its own press release, "Tre Faser i en Utvikling"
 amplifier including the NRF modifications, written in 1979 — that document
 hasn't survived, or hasn't been found again yet.
 
-## Press coverage, 1980/81
-
-**Danish High Fidelity no. 2, 1981**
-
-![Danish High Fidelity no. 2, 1981](audio-verdenen-nrf.jpg)
-
-**Hi-Fi & Elektronikk no. 2, 1980**
-
-![Hi-Fi & Elektronikk no. 2, 1980](hifi-2-1980.jpg)
-
-**Hi-Fi & Elektronikk no. 5, 1980**
-
-![Hi-Fi & Elektronikk no. 5, 1980](hifi-5-1980.jpg)
-
-**Musikkavisen PULS no. 2, 1980**
-
-![Musikkavisen PULS no. 2, 1980](puls-2-1980.jpg)
-
-**Musikkavisen PULS no. 4, 1980**
-
-![Musikkavisen PULS no. 4, 1980](puls-4-1980.jpg)
+See the press coverage from 1980/81 in
+[Magazine Articles > Norsk Radio Fabrikk](/magazine-articles/norsk-radio-fabrikk/).
