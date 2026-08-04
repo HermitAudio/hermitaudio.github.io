@@ -15,4 +15,4 @@ amplifier including the NRF modifications, written in 1979 — that document
 hasn't survived, or hasn't been found again yet.
 
 See the press coverage from 1980/81 in
-[Magazine Articles > Norsk Radio Fabrikk](/magazine-articles/norsk-radio-fabrikk/).
+[Press & Links > Norsk Radio Fabrikk](/press-links/norsk-radio-fabrikk/).

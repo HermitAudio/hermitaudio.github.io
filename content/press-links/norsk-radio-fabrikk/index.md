@@ -28,3 +28,9 @@ story of the company itself.
 **Musikkavisen PULS no. 4, 1980**
 
 ![Musikkavisen PULS no. 4, 1980](puls-4-1980.jpg)
+
+## External links
+
+Other people's articles and sites worth a read.
+
+*(none added yet)*

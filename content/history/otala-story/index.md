@@ -130,7 +130,7 @@ Current and Distortion" — not yet written).
 ## The Audio Critic
 
 At this time we started to hear rumours about a
-[test](/magazine-articles/early-electrocompaniet/audio-critic-1976/) in
+[test](/press-links/early-electrocompaniet/audio-critic-1976/) in
 the US on our amplifier. One day our mail started to overflow, and a few days
 later we got hold of the test ourselves. It was in a magazine named The Audio
 Critic, and the test was fabulous. It started:
