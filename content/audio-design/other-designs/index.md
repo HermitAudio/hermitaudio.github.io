@@ -10,7 +10,7 @@ them: some schematic details, some of the story behind them and the reasons
 for their development, and some technical goodies — and possibly a hint or
 two.
 
-Among these: the "[Regulated 25W](/schematics/regulated-power-supply/)"
+Among these: the "[Regulated 25W](/technical-reference/regulated-power-supply/)"
 amplifier, which had regulated power supplies for both the pre- and power
 stages — it did away with all the ripple, and provided high-speed power to
 the amplifier. It sounded good! But the heat ...

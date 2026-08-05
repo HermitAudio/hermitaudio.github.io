@@ -1,12 +1,12 @@
 +++
-title = "Schematics & Troubleshooting"
+title = "Technical Reference"
 type = "chapter"
 weight = 20
 +++
 
-# Schematics & Troubleshooting
+# Technical Reference
 
-Circuit schematics and troubleshooting guides for the Electrocompaniet
+Schematics, troubleshooting guides, and calculations for the Electrocompaniet
 amplifiers and preamplifiers, from the original 1973 Otala design through the
 EC production schematics, the 1982 preamplifier, and the later NRF/Special
 Version modifications.

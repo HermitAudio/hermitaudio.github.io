@@ -4,7 +4,7 @@ weight = 30
 +++
 
 My Audio Engineering Society journal article on class AB distortion in power
-amplifier output stages, 1983 — referenced throughout the [Schematics](/schematics/)
+amplifier output stages, 1983 — referenced throughout the [Technical Reference](/technical-reference/)
 and [Theory](/theory/) sections.
 
 **"Distortion in Class AB Power Amplifiers"**, Terje Sandstrøm (Institute of

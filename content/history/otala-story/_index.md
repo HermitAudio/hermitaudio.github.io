@@ -190,8 +190,8 @@ people love such stuff!
 
 ## Technical things
 
-See the [schematics](/schematics/evolution-of-the-schematics/). Also see some
-of the [calculations](/schematics/calculations/) that were done.
+See the [schematics](/technical-reference/evolution-of-the-schematics/). Also see some
+of the [calculations](/technical-reference/calculations/) that were done.
 
 
 
