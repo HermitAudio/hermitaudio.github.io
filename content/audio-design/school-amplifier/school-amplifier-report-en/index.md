@@ -10,11 +10,12 @@ math = true
 LF stereo power amplifier.**
 
 Full English translation of the original 1979 report, translated directly
-from the [Norwegian transcription](../skoleforsterkeren-report/). Figures and
-tables are the same scanned images as the Norwegian page; the formulas below
-are set with MathJax for readability but follow the original's notation.
-
-![Page 1 — title page](page-01.jpg)
+from the [Norwegian transcription](../skoleforsterkeren-report/). Diagrams
+and schematics are cropped from the same scans shown in full on the
+Norwegian page, with the surrounding Norwegian prose cropped out since it's
+already translated below (component labels inside the diagrams themselves
+are left as originally drawn). The formulas are set with MathJax for
+readability but follow the original's notation.
 
 ## Introduction
 
@@ -45,7 +46,6 @@ many measurement results as we would have liked. The trend in the
 measurements we have taken is, however, positive enough that the project's
 goals must be considered met.
 
-![Page 2](page-02.jpg)
 
 ## Part I — Theory and Design
 
@@ -76,7 +76,6 @@ $U_{inn} = 0.775\text{ V}_{rms}$. The gain then becomes:
 
 $$A_{cl} = U_{rms}/U_{inn} = 14.13\text{ X, i.e. } 23\text{dB} \tag{5}$$
 
-![Page 3](page-03.jpg)
 
 ### TIM - DIM - SID
 
@@ -99,7 +98,7 @@ $U_{ut}(s) = U_e A_1 A_2 A_3$ where $\tag{3}$
 
 A1 and A2 are frequency-independent while $A_2(s) = 1/(1+sT) \tag{4}$
 
-![Fig. 1 and Fig. 2 — block diagram and Bode plot](page-04.jpg)
+![Fig. 1 and Fig. 2 — block diagram and Bode plot](fig-01-02.jpg)
 
 ### fol and compensation
 
@@ -116,7 +115,7 @@ We will additionally use "input-lag" compensation, together with the usual
 2-stage compensation. The system is shown in fig. 3 and the Bode plots in
 fig. 4.
 
-![Page 5 — Fig. 3 and Fig. 4a/b/c](page-05.jpg)
+![Fig. 3 and Fig. 4a/b/c — block diagram and Bode plots](fig-03-04.jpg)
 
 We then have that:
 
@@ -146,7 +145,6 @@ turn on. We will therefore let the drivers determine the clipping level. The
 downside is that we get extra power dissipation in the output, i.e. reduced
 efficiency.
 
-![Page 6](page-06.jpg)
 
 ### The output stage
 
@@ -189,13 +187,12 @@ drive the stage becomes very nonlinear. This can be seen by considering the
 $I_C$ versus $U_{BE}$ characteristic. To get low distortion, one should
 therefore
 
-![Page 7](page-07.jpg)
 
 use a stage that operates, signal-wise, over a small portion of its
 $I_c/U_{BE}$ characteristic in order to deliver the full voltage swing.
 Stages like this are shown in fig. 6 and fig. 7.
 
-![Fig. 5, 6, 7 — stage variants, and Fig. 8 — output stage](page-08.jpg)
+![Fig. 5, 6, 7 — stage variants](fig-05-06-07.jpg)
 
 We will choose to use the variant in fig. 7, since this configuration
 reduces even-harmonic distortion.
@@ -224,10 +221,10 @@ peak), and have an $f_T = 50$MHz at $I_C = 0.5A$. We also note that the
 $h_{FE}$ versus $I_C$ characteristic has its maximum point very high, above
 1A, and does not fall off sharply until above 2A.
 
+![Fig. 8 — output stage](fig-08.jpg)
+
 $U_{CC}$ must be chosen higher than $U_{peak}$ so that the transistors do
 not go into saturation when clipping.
-
-![Page 9](page-09.jpg)
 
 We will use approx. ±18V. From the SOAR curves we see that the maximum
 quiescent current $I_{Cq} = .35$A.
@@ -276,7 +273,6 @@ The absolute minimum value for the drivers' load resistance is:
 
 $$R_{LDmin} = U_{peak}/I_{C,max} = 320\text{ ohm} \tag{5}$$
 
-![Page 10](page-10.jpg)
 
 This does not satisfy the requirement we set earlier that $Z_g \ll Z_{inn}$.
 We must therefore couple emitter followers to drive the output transistors.
@@ -316,7 +312,7 @@ all the current it can deliver. Seen from the capacitor's side, it will be
 driven from a lower source impedance than would have been the case without
 negative feedback.
 
-![Page 11 — Fig. 9](page-11.jpg)
+![Fig. 9 — driver/output transistor schematic](fig-09.jpg)
 
 For the output transistors we have $f_T = 50$MHz and $h_{fe} = 120$. This
 gives $f_{hfe} = 420$kHz. For the 2N2219, $f_T = 300$MHz, $h_{fe} = 150$,
@@ -353,7 +349,6 @@ We set $1+AB = D$ (the feedback) and $T_2 = T_1/k$, where $k$ is thus the
 ratio between the poles. We then see that $T_1$ drops out and we get an
 equation which says that
 
-![Page 12](page-12.jpg)
 
 $$k^2 + k(1-4D) + 1 \gtrsim 0 \tag{1}$$
 
@@ -394,7 +389,7 @@ therefore inserted a bipolar differential stage in between. A simplified
 diagram for one half is shown in fig. 11. The calculations that follow refer
 to the notation used in this diagram.
 
-![Page 13 — Fig. 10, Fig. 11](page-13.jpg)
+![Fig. 11 — differential pair and gain stages](fig-11.jpg)
 
 The resistor $R_{DD}$ prevents saturation of T2 during clipping by limiting
 the maximum voltage swing at the input of T2. To get as good linearity as
@@ -414,7 +409,6 @@ $R_C$.
 
 For the output transistors we have ...(continued on page 14)
 
-![Page 14](page-14.jpg)
 
 To get low distortion, we then want $U_{GS} \ll U_{GSoff}$, and from eq.
 (14.1) this gives a high $I_D$. From eq. (14.3) we see that this also gives
@@ -485,7 +479,6 @@ With $\theta_{ja} = 220°C$, $\theta_{jc} = 60°C$, this becomes:
 
 $$dT_j = 31°C, \text{ and } dT_c = P_c(\theta_{ja} - \theta_{jc}) = 22.4°C \tag{4}$$
 
-![Page 16](page-16.jpg)
 
 The maximum voltage swing at the output of the 1st stage is determined by
 the available supply voltage, the voltage swing at the output of the 2nd
@@ -530,7 +523,7 @@ $$U_{REt} = 3.7\text{V}/6.87 = 0.54 \tag{8}$$
 The choice of current in the 2nd stage is influenced by the following
 factors:
 
-![Page 17 — Fig. 12](page-17.jpg)
+![Fig. 12 — bias network](fig-12.jpg)
 
 High current gives: high corner frequency between $R_L$ and the associated
 node capacitance. Low distortion due to $h_{fe}$ nonlinearities at the
@@ -578,7 +571,6 @@ Assuming $h_{fe2} = 300$, we get $R_{Et} = 193$ ohm. We then get $R_C =
 With $C_{ob} = 7$pF for the 3rd stage, we get the cut-off frequency at
 $f = 1/(2\pi R_C C_{ob}) = 19$MHz.
 
-![Page 18](page-18.jpg)
 
 This can be neglected when analyzing the stability of the system.
 
@@ -593,7 +585,7 @@ We first set up an equivalent diagram for the output stage (fig. 13):
 because of the low impedances we are working with, we can disregard the
 effect of $h_{ob}$.
 
-![Page 19 — Fig. 13a, Fig. 13b](page-19.jpg)
+![Fig. 13a, Fig. 13b — output stage equivalent circuit](fig-13a-13b.jpg)
 
 The diagram in fig. 13a can be simplified to the one in fig. 13b, where one
 finds:
@@ -610,7 +602,7 @@ $$R_{inn2} = R_{Et}h_{fe2} = 58\text{ kohm} \text{ which gives } D_{i2} = R_{inn
 
 which becomes $D_{i2} = 0.946$
 
-![Page 20](page-20.jpg)
+![Fig. 14 — series feedback amplifier](fig-14.jpg)
 
 The attenuation for the 3rd stage becomes:
 
@@ -664,7 +656,7 @@ $$R_s = R_f B/(1-B) \tag{}$$
 We choose $R_f = 1.3$kohm, and get $R_s = 100$ ohm. (Fig. 14, see page 20
 above, shows the series feedback network.)
 
-![Page 21 — Fig. 15](page-21.jpg)
+![Fig. 15 — input network block diagram](fig-15.jpg)
 
 Since the 2nd stage is differential-in and singly loaded, the transfer
 characteristic will have 2 poles and one zero. If we assume the stage is
@@ -703,10 +695,10 @@ which gives $R_z = (R_i+R_f B)/(1-f_n/f_p) \tag{6}$
 
 We choose $R_i = 10$kohm and get $R_z = 440$ ohm, $C = 1.5$nF
 
-![Page 22 — Fig. 16, Fig. 17](page-22.jpg)
-
 The biasing of the 2nd stage is shown in fig. 16. $U_D$ is the drain voltage
 at the input stage, which is 10V at idle.
+
+![Fig. 16 — 2nd stage biasing](fig-16.jpg)
 
 The voltage across $R_E$ is: $U_{RE} = I_{C2}R_E = 0.45$ V, $U_{BE} \approx
 0.55$V
@@ -719,7 +711,11 @@ then becomes 3.0k.
 
 In fig. 9 it is marked that we need a certain bias $U'_{bb}$ of the output
 stage. This is so that the transistors are biased into class AB operation.
-Fig. 17 shows this bias circuit. The transistor is mounted so that it is in
+Fig. 17 shows this bias circuit.
+
+![Fig. 17 — output stage bias circuit](fig-17.jpg)
+
+The transistor is mounted so that it is in
 thermal contact with the heat sink, and will thereby adjust the bias in
 step with the decrease/increase of the output transistors' base-emitter
 voltages as a function of temperature variations. We have chosen to use a
@@ -743,8 +739,6 @@ With $R_2$ equal to 1kohm (most common/best available value), $I=923\mu A$
 $$U_{R1} = U'_{bb} - U_{BE} = 1.4\text{V, i.e. } R_1=1k5 \tag{}$$
 $$\tfrac{1}{2}R_2 + R_3 = U_{BE}/I = 1300\text{ ohm} \tag{}$$
 
-![Page 23 — Fig. 18a/b](page-23.jpg)
-
 With $R_2$ equal to 1kohm, this gives $R_3 = 820$ ohm. We then get:
 
 $$U'_{bb,min} = U_{BE}(R_1+R_2+R_3)/(R_2+R_3) = 2.19\text{V} \tag{}$$
@@ -761,6 +755,8 @@ class B operation. Fig. 18 b and c show this. We must nevertheless assume a
 defined transition in order to calculate the power dissipation. The actual
 power dissipation will likely be somewhat larger.
 
+![Fig. 18a/b/c — class A/AB/B transition](fig-18abc.jpg)
+
 As long as the amplifier operates in the class A region, the output
 functions as two parallel-connected transistors, meaning the current
 through each of them is half of the current through the load. Since this is
@@ -771,7 +767,7 @@ In the class B region, the transistors alternately block and conduct, so
 the current through each of them equals the current through the load
 during the conducting phase. This is also shown in fig. 19.
 
-![Page 24 — Fig. 19](page-24.jpg)
+![Fig. 19 — class AB signal current](fig-19.jpg)
 
 We then get that as long as the amplifier operates in class A, i.e.
 $I_p \leq 2I_q$, the input power is constant:
@@ -823,7 +819,6 @@ respectively.
 
 ![Fig. 21 — power dissipation at 8 ohm](fig-21.jpg)
 
-![Page 25](page-25.jpg)
 
 From fig. 24 we can set:
 
@@ -869,7 +864,7 @@ the transfer characteristic that could make the amplifier unstable.
 
 ![Fig. 23](fig-23.jpg)
 
-![Page 26 — Fig. 25](page-26.jpg)
+![Fig. 25 — output equivalent circuit with feedback](fig-25.jpg)
 
 To reduce the likelihood of this, we have inserted a series resistor equal
 to the amplifier's open-loop output impedance after the point where the
@@ -890,7 +885,6 @@ component values in fig. 27, the parts list in table 2, the diagram with
 component numbers in fig. 28, and the diagram with operating points in
 fig. 29. The component placement for the circuit board is shown in fig. 30.
 
-![Page 27](page-27.jpg)
 
 ![Fig. 26 — Circuit diagram](fig-26.jpg)
 
@@ -906,7 +900,6 @@ fig. 29. The component placement for the circuit board is shown in fig. 30.
 
 ## Part III — Measurements and Conclusion
 
-![Page 28 — Measurements](page-28.jpg)
 
 ### Measurements
 
@@ -953,7 +946,6 @@ the slew rate from the formula:
 
 $$SR = U_{peak} 2\pi f \tag{5}$$
 
-![Page 29 — Results](page-29.jpg)
 
 ### Results
 
@@ -1003,7 +995,6 @@ $U_{inn}$ = 0.72 V rms
 
 Gain: 13.0 x; 22.3 dB
 
-![Page 30 — On the results](page-30.jpg)
 
 ### On the results
 
@@ -1048,8 +1039,6 @@ measuring slew rate is investigating whether the amplifier has internal
 charging problems. We have not managed to get the amplifier into so-called
 "slew-rate limiting", i.e. where the edges of the signal become straight
 and rise more slowly than the input signal.
-
-![Page 31 — Fig. 31, conclusion](page-31.jpg)
 
 ![Fig. 31 — Left and right channel, block gain](fig-31.jpg)
 
