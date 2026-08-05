@@ -191,7 +191,7 @@ people love such stuff!
 ## Technical things
 
 See the [schematics](/technical-reference/evolution-of-the-schematics/). Also see some
-of the [calculations](/technical-reference/calculations/) that were done.
+of the [calculations](/technical-reference/post-ec-nrf/calculations/) that were done.
 
 
 

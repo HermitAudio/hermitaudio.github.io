@@ -5,7 +5,7 @@ weight = 70
 
 How should it be done?
 
-Base it on the [Special Version schematic](/technical-reference/nrf-modifications/).
+Base it on the [Special Version schematic](/technical-reference/post-ec-nrf/nrf-modifications/).
 That should be the starting point. Don't attempt to modify an existing amp —
 it should be built from scratch!
 

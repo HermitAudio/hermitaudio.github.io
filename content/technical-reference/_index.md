@@ -21,14 +21,9 @@ separate below.
 - [Troubleshooting the preamplifier](troubleshooting-the-preamplifier)
 - [The regulated 25W power amplifier](regulated-power-supply)
 
-## Post-EC / NRF (Norsk Radiofabrikk)
-
-Not EC factory work — my own modifications and designs from the NRF era
-(1979 onward), after leaving Electrocompaniet.
-
-- [The NRF modifications](nrf-modifications) (including the Special Version)
-- [1982 preamplifier schematics](preamp-1982-schematics)
-- [Calculations on the 25W amp](calculations) (1980, done on a consultancy basis)
+See [Post-EC / NRF](post-ec-nrf/) for what came after — not EC factory work,
+my own modifications and designs from the NRF era (1979 onward), kept
+separate in the menu on the left.
 
 Not ported: `distortion_calculators.htm` and `SingleCalc.htm` (an ActiveX
 distortion-calculator control — only ever worked in old IE, and the control
@@ -40,4 +35,4 @@ real schematic survives there).
 One gap filled in during migration: the old site's schematics page said
 "SCHEMATIC 5 is coming later" for the Special Version schematic and never
 delivered it, but the scanned image existed unlinked in the old site's
-files — it's now included on the [NRF modifications](nrf-modifications) page.
+files — it's now included on the [NRF modifications](post-ec-nrf/nrf-modifications) page.

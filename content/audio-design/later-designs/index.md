@@ -9,7 +9,7 @@ This preamplifier was designed in 1982, and a prototype made in 1983. Only
 one unit exists, and it sounds wonderful — by far the best-sounding
 preamplifier I have ever made. Still today I'm rather pleased with the
 design. It is divided into several gain blocks. In the accompanying
-[schematics section](/technical-reference/preamp-1982-schematics/) I've shown the
+[schematics section](/technical-reference/post-ec-nrf/preamp-1982-schematics/) I've shown the
 block schematics and one of the gain stages, which is used in two places.
 More details on this design will follow later.
 

@@ -1,6 +1,6 @@
 +++
 title = "1982 Preamplifier Schematics"
-weight = 110
+weight = 20
 +++
 
 ![Preamp '82, block 1 — phono stage](Preamp82-Block1.jpg)

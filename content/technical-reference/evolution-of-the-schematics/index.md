@@ -41,7 +41,7 @@ From serial no. 275, the Great Change was applied to the amplifiers.
 This was the last of the true EC designs. After leaving Electrocompaniet I
 did further modifications of my own — the NRF Mod. and "The Special
 Version" — in the years that followed; see
-[NRF Modifications](/technical-reference/nrf-modifications/) for those (they
+[NRF Modifications](/technical-reference/post-ec-nrf/nrf-modifications/) for those (they
 follow on from the EC design, but aren't EC work themselves).
 
 See [Later Designs](/audio-design/later-designs/) for what came after.

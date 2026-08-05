@@ -1,6 +1,6 @@
 +++
 title = "The NRF Modifications"
-weight = 100
+weight = 10
 +++
 
 After I left Electrocompaniet in 1979, I tried to start up a new audio company
