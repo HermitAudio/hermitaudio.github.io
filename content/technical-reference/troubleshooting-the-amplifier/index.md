@@ -1,6 +1,6 @@
 +++
 title = "Troubleshooting Your Amplifier"
-weight = 60
+weight = 50
 +++
 
 This page contains info on troubleshooting the power amplifier. For some info

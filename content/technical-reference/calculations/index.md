@@ -1,6 +1,6 @@
 +++
 title = "Calculations on the 25W Amp"
-weight = 90
+weight = 120
 +++
 
 The following image is the first of an analysis done on the 25W amplifier.

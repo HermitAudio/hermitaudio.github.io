@@ -20,3 +20,8 @@ fully working version, although it worked partly. The design was rather good
 anyway, and had a lot of interesting features. The [cooling fins](../cooling-fins),
 for example, used new heat-transfer knowledge to its best — I have never
 seen anything similar, either before or after.
+
+## The Perfect 25W
+
+What about some thoughts on the "[Perfect 25W](../the-perfect-25w-amplifier/)"
+amplifier? Or the perfect preamplifier, which was realized above, but ...

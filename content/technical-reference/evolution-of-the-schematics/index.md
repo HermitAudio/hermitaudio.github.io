@@ -38,50 +38,13 @@ quiescent current in these stages.
 
 From serial no. 275, the Great Change was applied to the amplifiers.
 
-This was the last of the EC designs, but in my own company I did two new
-modifications: one known only as the NRF Mod., the other known as "The
-Special Version". The modifications were only further improvements, naturally
-following on from the EC time. See the [NRF modifications](../nrf-modifications)
-page.
+This was the last of the true EC designs. After leaving Electrocompaniet I
+did further modifications of my own — the NRF Mod. and "The Special
+Version" — in the years that followed; see
+[NRF Modifications](/technical-reference/nrf-modifications/) for those (they
+follow on from the EC design, but aren't EC work themselves).
 
-The "Special Version" schematic is shown here:
-
-![Special Version schematic (hand-drawn)](ASpecial_SpecialVersion.jpg)
-
-Note the heavily reduced values of the output-stage emitter resistors — down
-to 0.33 ohm from 1 ohm! This reduces the AB nonlinearity, as described in my
-1982 AES paper.
-
-Note also the changed input stage, with a JFET differential pair as a source
-follower. It was found that the bipolar input stage added distortion caused by
-its nonlinear input base current acting on the input resistors. (Which again
-shows: when we reduced the input resistors from 6k8 to 2k2, we heard a sound
-improvement and believed it was caused by improved frequency-response behavior
-above 20kHz — it may have been the 10dB distortion reduction that we heard!)
-To reduce this distortion further, the JFET pair was added. Further, a cascode
-pair was added to eliminate the Miller effect and the nonlinear voltage
-modulation of the critical first stage.
-
-The gain distribution was also changed — the 3rd stage gain was increased by
-raising the load resistors from 2k2 to 3k3. More gain was needed to increase
-the overall feedback to 40dB. It was found that increasing this particular
-point (3rd stage) was the less critical of the options. However, we got
-slightly more relative modulation effect on the 3rd stage than we wished for.
-
-All in all, approximately 100 amplifiers were modified, and an additional 50
-Special Versions were made.
-
-By the end of the '80s and the beginning of the '90s, I tried a few more
-changes to the amplifier design, which never made it beyond the lab bench.
-Only one amp exists with these modifications. They included emitter followers
-added before the 3rd stage, to reduce the modulation effect mentioned above.
-
-Also see some of the later [calculations](../calculations) made on this
-amplifier.
-
-What about some thoughts on the "[Perfect 25W](/audio-design/the-perfect-25w-amplifier/)"
-amplifier? Or the perfect [preamplifier](/audio-design/later-designs/#preamplifier-of-1982),
-which was realized, but ...
+See [Later Designs](/audio-design/later-designs/) for what came after.
 
 Anything you find missing, or any comments, are appreciated — reach out via
 [the about page](/about/).

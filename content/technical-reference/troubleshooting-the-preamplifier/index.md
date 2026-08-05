@@ -1,6 +1,6 @@
 +++
 title = "Troubleshooting the Preamplifier"
-weight = 70
+weight = 60
 +++
 
 I will put up schematics and other material on the preamplifier as well.

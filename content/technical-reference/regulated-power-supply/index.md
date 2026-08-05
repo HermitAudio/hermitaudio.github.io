@@ -1,6 +1,6 @@
 +++
 title = "The Regulated 25W Power Amplifier"
-weight = 100
+weight = 70
 +++
 
 We noted early on that the power supply had a significant effect on the

@@ -1,6 +1,6 @@
 +++
 title = "Transformers, Wiring & Mechanical Assembly"
-weight = 50
+weight = 40
 +++
 
 This page is intended to help you if you're going to service your amplifier.
