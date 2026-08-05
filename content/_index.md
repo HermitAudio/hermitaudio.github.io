@@ -18,8 +18,4 @@ non-linearities, and other audio-design work.
 My current work is in software development — see
 [my blog](https://hermit.no) for that side of things.
 
----
 
-This site is being migrated from an old Jekyll/FrontPage site to Hugo. Content
-is moving into the sections on the left one page at a time; anything not yet
-migrated still exists in the repository's `Legacy/` folder.

@@ -4,8 +4,6 @@ type = "chapter"
 weight = 50
 +++
 
-# Audio Design
-
 Miscellaneous audio-design work not tied directly to the Electrocompaniet
 history: the school amplifier project, cooling-fin calculations, the AES
 paper on AB distortion, later prototypes, and other designs.
