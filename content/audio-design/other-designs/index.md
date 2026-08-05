@@ -28,5 +28,5 @@ To us, of course, that meant no transformers. The electronics were completely
 differential all the way through. The preamp had passive equalization, a lot
 of transistors, and sounded very good.
 
-*(The schematics for this one were never relocated — if they turn up, they'll
+*(The schematics for this one were never located — if they turn up, they'll
 be added here.)*
