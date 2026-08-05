@@ -20,6 +20,7 @@ In some cases you can download issues, and links to that are in each underlying 
 
 Links to articles, including blog posts, and some interesting other related audio stuff
 
+- [Tracking Angle, by Jan Omdahl, 2023](https://trackingangle.com/features/how-a-small-norwegian-hi-fi-brand-ended-with-credits-on-michael-jackson-s-album-covers) How a Small Norwegian Hi-fi Brand Ended Up With Credits on Michael Jackson's Album Covers, includes the early start up story.
 - [Prof.Dr. Sverre Holms](https://www.mn.uio.no/fysikk/personer/vit/sverre/) [article about loudspeaker cables (Norwegian)](https://kollokvium.wordpress.com/2013/08/12/magiske-hoyttalerkabler/) with his reference to Electrocompaniet, and his link onwards to the HiFi News article below.
     For those interested in some more loudspeaker cable analysis by Sverre Holm, [here is part 2](https://kollokvium.wordpress.com/2013/08/19/magiske-hoyttalerkabler-del-2/) and a [lecture note](https://www.mn.uio.no/fysikk/personer/vit/sverre/forelesingsnotater/2014-magiskekabler.pdf).
 - [Hifi News, Dec 2011: Electrocompaniet 'Electro' Vintage](https://www.hifinews.com/content/electrocompaniet-electro-vintage)
