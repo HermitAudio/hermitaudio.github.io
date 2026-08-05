@@ -192,3 +192,7 @@ people love such stuff!
 
 See the [schematics](/schematics/evolution-of-the-schematics/). Also see some
 of the [calculations](/schematics/calculations/) that were done.
+
+
+
+See [the evolution notes](evolution-notes), handwritten in Norwegian, but with English text extracted.
