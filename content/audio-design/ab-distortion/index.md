@@ -18,9 +18,7 @@ published in the Journal:
   [AES Journal Forum entry](https://secure.aes.org/forum/pubs/journal/?elib=4540)
 
 This was one of two papers I presented at AES conventions in the early '80s;
-this is the one that made it into the Journal. I haven't been able to
-identify the other one — if you know its title, let me know via
-[the about page](/about/).
+this is the one that made it into the Journal.
 
 ![AES journal article on AB distortion, page 1](aesj831r.jpg)
 

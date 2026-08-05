@@ -4,8 +4,6 @@ type = "chapter"
 weight = 30
 +++
 
-# Theory
-
 The theory of the Otala amplifiers, and thus the basis for the Electrocompaniet
 amplifiers, has been detailed in many papers, mostly by Matti Otala, but also
 by several others. At Electrocompaniet these theories were extended, and a

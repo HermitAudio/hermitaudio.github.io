@@ -3,7 +3,7 @@ title = "Common Mode Distortion"
 weight = 80
 +++
 
-Scanned document on common mode distortion.
+## AES presentation 68th Convention 1981 on common mode distortion
 
 ![Page 1](page0003-01.jpg)
 
