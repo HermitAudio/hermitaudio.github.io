@@ -18,7 +18,7 @@ In some cases you can download issues, and links to that are in each underlying 
 
 ## Links
 
-Links to articles, including blog posts, and some interesting other related audio stuff
+Links to articles which relates to the history, including blog posts, and some interesting other related audio stuff
 
 - [Tracking Angle, by Jan Omdahl, 2023](https://trackingangle.com/features/how-a-small-norwegian-hi-fi-brand-ended-with-credits-on-michael-jackson-s-album-covers) How a Small Norwegian Hi-fi Brand Ended Up With Credits on Michael Jackson's Album Covers, includes the early start up story.
 - [Prof.Dr. Sverre Holms](https://www.mn.uio.no/fysikk/personer/vit/sverre/) [article about loudspeaker cables (Norwegian)](https://kollokvium.wordpress.com/2013/08/12/magiske-hoyttalerkabler/) with his reference to Electrocompaniet, and his link onwards to the HiFi News article below.
