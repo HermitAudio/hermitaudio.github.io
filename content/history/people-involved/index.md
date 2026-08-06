@@ -14,11 +14,10 @@ step in Otala's quest against the new distortion called TIM, and later DIM.
 
 **Svein Erik Børja**, a Norwegian broadcast and record producer, heard the
 presentation given by Dr. Matti Otala at an AES conference in Copenhagen in
-1973. Together with **Nils Jørgen Kjærnet** at Nera he built two units based on
-the Otala/Lohstroh schematics.
+1973. Together with **Nils Jørgen Kjærnet** at Nera he built two (or five) units based on the Otala/Lohstroh schematics.
 
 **Per Abrahamsen** was contacted by Svein Erik, who knew him from his Mojo
-Blues days, and also knew that Per had an audio/electronics company. Per was
+Blues days as a producer, and also knew that Per had an audio/electronics company. Per was
 mostly working with PA equipment, but the arrival of the Otala amp turned his
 company, Electrocompaniet, into an audio company.
 
@@ -59,8 +58,7 @@ was also a hi-fi nut, working in a record store, and provided us with the
 latest and best-sounding records for our sound tests.
 
 **Nils Kvam** was a record producer who also worked with listening tests and
-also provided opportunities for the company sales-wise. He is still working
-with EC.
+also provided opportunities for the company sales-wise. He stayed way longer than me.
 
 **Øistein Klevhus** helped me with the Engineering High School (I was rarely
 present ...), and I got him a part-time job at EC from early '78 (or late '77)
@@ -80,10 +78,11 @@ Others who contributed included, for example, Svein Erik's brother, **Bjørn
 Børja**, from Seas AS, who designed a cute little moving-coil amplifier that EC
 manufactured for some time.
 
-During 1979 the company moved, I started my way out, other people came in, and
-I don't recall their names, sorry. However, the first era of the Otala
-amplifier ended sometime in 1979-1980, and the new Electrocompaniet appeared.
-It moved to Skårer, where it is still located.
+During 1979 the company relocated, I gradually left, and new people joined. Unfortunately, I no longer remember all of their names.
+
+The first era of the original Otala amplifier came to an end around 1979–1980, marking the beginning of a new chapter for Electrocompaniet. The company moved to Skårer, where it remained until its bankruptcy in 2004. It was then acquired by Westcontrol and relocated to Tau in Rogaland.
+
+Per continued with Abrahamsen Audio, where he reintroduced the Two Channel Audio Amplifier. However, I am not familiar with the technical details of that version.
 
 *This text was originally written some time in the late 1990's, and minor
-updated around 2005.*
+updates around 2005 and 2026*

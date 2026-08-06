@@ -5,9 +5,11 @@ weight = 60
 
 # Norsk Radiofabrikk — The Norwegian Radio Manufacturing Company
 
-The company was founded in 1979 by Espen Evensberget, Paal Rasmussen and
-myself. More info on this will follow later, but for now, see what the press
-said at the time below.
+The company was founded in 1979 by Espen Evensberget, Paal Rasmussen, and myself. We aimed to develop and market our own designs, but most of our work involved modifying and refining the Two Channel Audio Amplifier.
+
+The company ceased operations in 1981/82.
+
+Some of the designs we developed can be found in the [Technical Reference section](/technical-reference/post-ec-nrf/)
 
 The company also put out its own press release, "Tre Faser i en Utvikling"
 ("Three Phases in a Development"), about the story of the Otala power

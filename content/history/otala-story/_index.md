@@ -11,37 +11,19 @@ people who contributed.*
 
 ## Introduction — the birth of the Otala amplifier
 
-At an AES conference in 1973, [Dr. Matti Otala](http://www.tut.fi/~strategy/otala/)
-presented a paper describing the design of a TIM-free audio amplifier. Present
-at this conference was Svein Erik Børja, a Norwegian record and broadcasting
-producer, and a great audio enthusiast. Svein Erik Børja was also one of the
-greatest Golden Ears of his time — he was able to hear even the slightest
-imperfection in an audio component. Having been dissatisfied with the sound of
-the transistorized audio amplifiers of that day, he saw an opportunity here for
-an audio amplifier of a new generation. Dr. Otala's talk about TIM also
-explained the imperfections Svein Erik himself had noted in audio amplifiers.
+At an AES conference in 1973, Dr. Matti Otala presented a paper describing the design of a TIM-free audio amplifier. Among those attending was Svein Erik Børja, a Norwegian record and broadcasting producer and dedicated audio enthusiast. Børja was widely recognised for his exceptional listening ability—what audiophiles of the day referred to as a "Golden Ear." Dissatisfied with the sound quality of many transistor amplifiers of the time, he immediately recognised the significance of Otala's work. The theory behind TIM also provided an explanation for imperfections that he himself had consistently identified by listening.
 
-He brought the paper to a friend of his who was running his own audio company
-in Norway, Per Abrahamsen of Electrocompaniet. Per decided to give the
-amplifier a try, to see what it might bring. They got the help of Nils Jørgen
-Kjærnet at Nera in Oslo, who did the circuit board design and also, to my
-knowledge, helped with the mechanical design of the amplifier.
+Looking back, this became one of the foundations of our design philosophy: careful listening, objective measurements, and theoretical analysis. All three had to point in the same direction before we considered a design change to be successful.
 
-They first made just a couple of amplifiers, but the sound was so good,
-fulfilling all their expectations, that they decided to manufacture a series of
-these amplifiers.
+Børja brought the paper to Nils Jørgen Kjærnet at Nera in Oslo. Together they built two prototype amplifiers based on the Otala/Lohstroh schematics. Kjærnet designed the printed circuit boards and, to the best of my knowledge, also contributed to the mechanical design.
 
-I started showing up at Electrocompaniet in the autumn of '74, and started to
-work for Per in the spring of '75. One of my first jobs was to assemble the
-first production series of the Otala amplifiers — a series of 10 amplifiers,
-based on the same PCBs as the original two prototypes. During the summer I
-started to look at the design, having been an electronics hobbyist since my
-early teens. At that time neither Per nor I knew too much about high-end audio
-design. That may well have been the factor behind the amplifier's success, as
-it evolved over the next 5 years — we didn't know how it should be done, so we
-worked it out from the framework given by the Otala design. We may well have
-been the first audio amplifier designers of the new school — the TIM-free
-designers, so to speak.
+The promising results led Børja to contact his friend Per Abrahamsen, who was then running Electrocompaniet. Per decided to build a couple of amplifiers to evaluate the design. They fulfilled all expectations and sounded so good that Electrocompaniet decided to manufacture a production series, marking the company's transition from professional audio equipment to high-end audio.
+
+I started hanging around Electrocompaniet in the autumn of 1974 and began working for Per in the spring of 1975. One of my first tasks was assembling the first production series of the Otala amplifiers—a run of ten units built on the same printed circuit boards as the original two prototypes.
+
+During the summer I started looking at the design. Having designed and built electronic equipment as a hobby since my early teens, I naturally wanted to understand how it worked. At that time neither Per nor I had much experience in high-end audio design. In retrospect, that may well have contributed to the amplifier's success. We didn't know how it was supposed to be done, so we worked it out ourselves within the framework provided by Otala's design.
+
+In many ways we belonged to the first generation of amplifier designers to develop products with TIM as a primary design criterion. We were learning as we went, building on the foundation laid by Otala's work.
 
 ## The first Otala amplifier in "production"
 
@@ -143,41 +125,25 @@ Critic, and the test was fabulous. It started:
 Suddenly we had more requests for amplifiers than we could hope to handle.
 Sales boomed. It was mid-'76.
 
-We worked all summer, mornings, days, evenings, and into the night — Monday to
-Friday, Saturday and Sunday. Per's wife, Anne, was not always too happy about
-this. Per had two small boys, and she had to take care of them a lot by
-herself. Anyway — her "sacrifice" made building these amplifiers possible, and
-the nice thing about it all is that both Per's and Anne's sons now work at
-Electrocompaniet! So in the end it turned out to be an investment in their own
-future as well!
+We worked throughout the summer, from morning until late at night, seven days a week. It was an intense period, driven by enthusiasm and the determination to make the amplifier a reality.
 
 ## The great change
 
-Dr. Otala's theorems on TIM very often came out as an attack on high-feedback
-amplifiers. Although it is correct that high-feedback amplifiers are more
-prone to TIM than low-feedback amplifiers, there is no magic here. The main
-goal of any amplifier is to reproduce the incoming music as perfectly as
-possible, neither adding nor subtracting anything. TIM is just one type of
-distortion; swapping one type for another doesn't help. It is true that some
-types of distortion are harsher to the ear than others, but there still is a
-balance to be struck. If 0.1% of TIM equals 1% of THD in audibility, then an
-amplifier with 2% THD and 0.07% TIM will sound worse than an amplifier with 1%
-THD and 0.1% TIM.
+Dr. Otala's work on TIM was often interpreted as an attack on high-feedback amplifiers. While it is true that high-feedback designs can be more prone to TIM than low-feedback designs, there is nothing inherently magical about low feedback.
 
-So, we realised that the balance of distortions was the essential factor to
-consider. Not only do you have to balance THD against TIM, but also
-low-frequency distortion against high-frequency distortion, frequency and
-phase response against non-linear distortion in general, and so on.
+The primary goal of any amplifier is to reproduce the input signal as accurately as possible, neither adding nor subtracting anything. TIM is simply one form of distortion; reducing one type of distortion at the expense of increasing another is not, in itself, an improvement.
 
-This insight triggered the Great Change:
+It is true that some types of distortion are more objectionable to the ear than others, so there is always a balance to be struck. If, for example, 0.1% TIM is considered subjectively equivalent to 1% THD, then an amplifier with 2% THD and 0.07% TIM is likely to sound worse than one with 1% THD and 0.1% TIM.
 
-One night (it always happened at night!) we increased the feedback by 10 dB,
-for a total of 30 dB of feedback. The sound improvement was staggering — and
-contrary to common belief in our own community!
+We gradually came to realise that achieving the right balance between different forms of distortion was the key. It was not simply a matter of balancing THD against TIM, but also low-frequency distortion against high-frequency distortion, frequency and phase response against nonlinear distortion in general, and so on.
 
-After this we only adjusted the amplifier slightly. It had found the form it
-should have for its remaining life at Electrocompaniet. And the amplifier was
-a success!
+This insight led to The Great Change.
+
+One night (it always seemed to happen at night!) we increased the feedback by 10 dB, bringing the total feedback to 30 dB. The improvement in sound quality was remarkable—and completely contrary to the prevailing beliefs within our own community.
+
+From that point on, only minor adjustments were made to the amplifier. It had essentially reached the form it would retain throughout the rest of its life at Electrocompaniet.
+
+Although never a high-volume product, the amplifier earned an international reputation and became the foundation on which Electrocompaniet built its name.
 
 ## On marketing
 
@@ -192,7 +158,5 @@ people love such stuff!
 
 See the [schematics](/technical-reference/evolution-of-the-schematics/). Also see some
 of the [calculations](/technical-reference/post-ec-nrf/calculations/) that were done.
-
-
 
 See [the evolution notes](evolution-notes), handwritten in Norwegian, but with English text extracted.
